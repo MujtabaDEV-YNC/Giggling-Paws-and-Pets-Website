@@ -6,7 +6,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const src = path.resolve(root, "..", "pet-parade-products");
+const src = path.resolve(root, "pet-parade-products");
 const out = path.resolve(root, "public", "products");
 
 // slug -> storefront file (default state) and lifestyle file (hover/focus state)

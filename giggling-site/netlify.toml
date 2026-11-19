@@ -1,7 +1,0 @@
-# Build settings for the Next.js app (used when the Netlify base directory is giggling-site).
-[build]
-  command = "npm run build"
-  publish = ".next"
-
-[build.environment]
-  NODE_VERSION = "22"

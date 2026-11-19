@@ -1,7 +1,5 @@
-# The Next.js app lives in giggling-site/, not the repo root.
-# These settings override the build settings in the Netlify UI.
+# Netlify build settings for the Next.js app at the repo root.
 [build]
-  base = "giggling-site"
   command = "npm run build"
   publish = ".next"
 
